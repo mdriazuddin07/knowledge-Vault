@@ -26,7 +26,41 @@
     font-weight: bold;
     color: #ffffff;
 }
-/*  */
+
+.hero {
+    min-height: 100vh;
+    background: url("/assets/hero-bg.png") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+.badge{
+    background-color: #ffffff;
+    width: 229PX;
+    height: 35px;
+    padding: 8px 12px;
+    align-items: center;
+    display: flex;
+    border-radius: 1000px;
+    gap: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    
+    
+}
+.title{
+    font-size: 70px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.title2{
+    color: #30B868;
+}
+
+
 
 
 /* main style */
@@ -57,3 +91,4 @@ nav .menu a {
     color: #000000;
     text-decoration: none;
 }
+
