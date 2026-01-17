@@ -28,38 +28,114 @@
 }
 
 .hero {
-    min-height: 100vh;
+    min-height: 674px;
+
     background: url("/assets/hero-bg.png") center/cover no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    padding: 2rem;
+    padding: 154px 120px 134px 120px;
 }
-.badge{
+
+.badge {
     background-color: #ffffff;
     width: 229PX;
+    margin: auto;
     height: 35px;
     padding: 8px 12px;
     align-items: center;
+    justify-content: center;
     display: flex;
     border-radius: 1000px;
     gap: 6px;
     font-size: 16px;
     font-weight: 500;
     color: #30B868;
-    
-    
+
+
 }
-.title{
+
+.title {
     font-size: 70px;
     font-weight: bold;
     color: #ffffff;
 }
-.title2{
+
+.title2 {
     color: #30B868;
 }
 
+.discription {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn1 {
+    background-color: #30B868;
+    width: 251px;
+    height: 52px;
+    border: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 12px 16px 12px 16px;
+}
+
+.btn2 {
+    background-color:transparent;
+    width: 198px;
+    height: 52px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 16px 12px 16px;
+    color: #ffffff;
+
+}
+.main-content{
+ margin-top: 100px;
+ 
+}
+.discription2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(138, 115, 115);
+    margin-top: 16px;
+    margin-bottom: 32px;
+
+}
+.title3{
+ text-align: center;
+font-size: 48px;
+font-weight: 700;
+}
 
 
 
@@ -91,4 +167,3 @@ nav .menu a {
     color: #000000;
     text-decoration: none;
 }
-
