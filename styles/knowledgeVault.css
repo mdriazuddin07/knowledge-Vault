@@ -204,10 +204,7 @@
     margin-bottom: 40px;
 }
 
-.features-list {
-    list-style: none;
-    padding: 0;
-}
+
 
 .features-list li {
     display: flex;
@@ -217,11 +214,7 @@
     color: #0f172a;
 }
 
-.features-list li::before {
-    content: "✔";
-    color: #22c55e;
-    font-weight: bold;
-}
+
 .feature-card {
     width: 322px;
     height: 300px;
@@ -266,9 +259,56 @@
     line-height: 20px;
     color: #64748b;
 }
+.ready{
+    max-width: 1360px;
+    height: 334px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 12px;
+    padding: 80px 40px 80px 40px;
+    background-color: #F7F6F2;
+}
 
+.ready h1{
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
 
+}
 
+.ready p{
+    margin-top: 16px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer-social .icons {
+    display: flex;
+    gap: 14px;
+    justify-content: flex-end;
+    width: 92px;
+    height: 20px;
+    
+}
+.footer-social h4{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 16px;
+}
+.footer-bottom{
+    color: white;
+    margin-top: 120px;
+    text-align: center;
+margin-bottom: 30px;
+}
 
 /* main style */
 header {
@@ -297,4 +337,17 @@ nav .menu a {
     font-size: 16px;
     color: #000000;
     text-decoration: none;
+}
+
+footer{
+    background-color: #001931;
+    margin-top: 120px;
+
+height: 348px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 80;
+padding: 120px 120px 30px 120px;
+
 }
