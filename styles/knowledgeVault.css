@@ -30,7 +30,7 @@
 .hero {
     min-height: 674px;
 
-    background: url("/assets/hero-bg.png") center/cover no-repeat;
+    background: url("../assets/hero-bg.png") center/cover no-repeat;
     text-align: center;
     padding: 154px 120px 134px 120px;
 }
